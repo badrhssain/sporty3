@@ -1,0 +1,42 @@
+*{
+    font-family: 'Bebas Neue', cursive;
+}
+.row{
+    width: 100%;
+}
+.card{
+    margin: 40px;
+    height: 320px;
+    background-color: #2C2292;
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+}
+
+.card-img-top{
+    width: 80%;
+}
+.textcard h3{
+    font-size: 30px;
+    color: white;
+}
+.textcard p{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.688);
+}
+.boot{
+    margin-left: 50px;
+    width: 260px;
+    margin-top: -10px;
+}
+.d-flex{
+    margin-left: 8px ;
+    margin-top: 80px;
+    height: 200px; 
+    width: 5px;
+    color: rgb(255, 255, 255); 
+    position: absolute;
+}
+.card-title{
+    margin-bottom: -2px;
+}

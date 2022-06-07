@@ -1,0 +1,295 @@
+/* yellow #FDC62A 
+blue #0A4F98*/
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@media screen and (max-width: 420px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+*{
+    font-family: 'Bebas Neue', cursive;
+}
+.navbar-brand{
+    font-size: 35px;
+    color: #0A4F98;
+}
+.navbar-brand strong{
+    color: #FDC62A;
+}
+.btn-outline-success{
+    color: #FDC62A;
+    border-color: #FDC62A;
+}
+.btn-outline-success:hover {
+    box-shadow: 0 0 0 0.25rem #e7bc48;
+}
+.btn:hover {
+    background-color: #FDC62A;
+}
+.btn:hover{
+    border: #FDC62A;
+}
+.bigsection{
+    display:flex ;
+}
+.colleft{
+    padding: 100px;
+    background-color: #0A0442;
+    width: 50%;
+    color: white;
+}
+
+@media only screen and (max-width: 420px) {
+    .d-flex {
+      color: white;
+    }
+  }
+@media only screen and (max-width: 420px) {
+    .colleft {
+      margin-bottom: 500px;
+      width: 100%;
+      padding: 40px;
+    }
+  }
+.colleft strong{
+    color: #e7bc48;
+}
+.colright{
+    background-image: url("assets/rh.png");
+    background-size: cover;
+    height: 515px;
+    width: 50%;
+}
+@media only screen and (max-width: 420px) {
+    .colright {
+      position: absolute;
+      width: 100%;
+      margin-top: 500px;
+    }
+  }
+.navbar{
+    height: 66px;
+}
+.btnyl{
+    padding: 5px 30px 5px 30px;
+    background-color: #DF9704;
+    border-radius: 1px;
+    color: white;
+}
+.btnbl{
+    margin-left: 20px;
+    padding: 5px 30px 5px 30px;
+    background-color: #0A4F98;
+    border-radius: 1px;
+    color: white;
+}
+.headhr{
+    margin-top: 120px;
+}
+/*------------------Thirdsection-----------------*/ 
+.firstsc{
+    padding-bottom: 80Px ;
+}
+.firstsc h1,p{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.firstsc h1{
+    padding: 50px;
+    color: #2C2292;
+}
+.firstsc p{
+    font-family: 'Roboto', sans-serif;
+}
+.colleft h1 {
+    animation: fadeInLeft 2s ease-in-out;
+  }
+  
+  @keyframes fadeInLeft {
+    from {
+        transform: translateX(300px);
+        opacity: 0;
+    }
+  
+    to {
+     opacity: 1;
+    }
+}
+.bd{
+    width: 300px;
+    padding-left: 80px;
+}
+/*------------------Secondsection-----------------*/ 
+.colleft2{
+    height: 700px;
+    width: 50%;
+    background-image: url("assets/predator.png");
+    background-size: cover;
+}
+.colright2{
+    background-size: cover;
+    height: 515px;
+    width: 50%;
+    padding: 70px 0px 100px 70px;
+}
+
+.colright2 h3{
+    color: #2F2291;
+}
+.colright2 p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: left;
+}
+a{
+    color: #000;
+}
+hr{
+    width: 500px;
+    border: 1px solid black;
+    opacity: 100%;
+}
+.bootdiv{
+    display: flex;
+}
+.bootdivlf{
+    display: flex;
+    border-right: 2px solid black;
+}
+.bootdivlf h1{
+    font-size: 80px;
+    padding-right: 20PX;
+    color: #2C2292;
+}
+.bootdivlf h2{
+    padding-right: 20PX;
+}
+.bootdivri h1{
+    font-size: 80px;
+    padding-right: 20PX;
+    color: #2C2292;
+}
+.bootdivri{
+    display: flex;
+    padding-left: 40px;
+}
+/*------------------Thirdsection-----------------*/ 
+.h1boot{
+    text-decoration: underline;
+}
+.thirdsc {
+    padding-top: 30px;
+}
+.thirdsc h1{
+    text-align: center;
+}
+.bigdiv{
+    display: flex;
+    width: 100%;
+    margin-bottom: 100px;
+}
+.bigdiv div{
+    border-radius: 20px;
+
+    width: 25%;
+
+}
+.card{
+    margin: 10px;
+    width: 50px;
+    background-image: url("assets/Rectangle\ 1.png");
+    background-position: center;
+    background-size: cover;
+}
+.card-img-top{
+    width: 90%;
+}
+.signdiv{
+    height: 400px;
+    background-image: url("assets/signpic.png");
+    background-size: cover;
+}
+@property --num {
+    syntax: "<integer>";
+    initial-value: 0;
+    inherits: false;
+  }
+  
+  .ab h1 {
+    animation: counter 5s infinite alternate ease-in-out;
+    counter-reset : num var(--num);
+    font: 800 60px system-ui;
+  }
+  .ab h1::after {
+    content: counter(num);
+  }
+  
+  @keyframes counter {
+    from {
+      --num: 0;
+    }
+    to {
+      --num: 8;
+    }
+  }
+  .signdiv {
+      padding-top: 100px;
+      text-align: center;
+      color: white;
+      margin-bottom: 150px;
+  }
+  .signdiv h2{
+      font-size: 100px;
+      margin-bottom: -50px;
+}.colright5{
+    height: 800px;
+    width: 50%;
+    background-image: url("assets/footerpic.png");
+    background-size: cover;
+}
+.colleft5{
+    background-size: cover;
+    height: 515px;
+    width: 50%;
+    padding: 120px 0px 100px 70px;
+}
+.colleft5 h1{
+    font-size: 70px;
+    text-align: left;
+}
+.colleft5 h3{
+    color: #2F2291;
+}
+.colleft5 p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 10;
+    text-align: left;
+}
+.bootdivlf2{
+    display: flex;
+    border-right: 2px solid black;
+}
+.bootdivlf2 h1{
+    font-family: 'Audiowide';
+    font-size: 40px;
+    padding-top: 20px;
+    padding-right: 20PX;
+}
+.bootdivri2 h1{
+    font-size: 60px;
+    padding-right: 20PX;
+}
+.bootdivri2{
+    padding-left: 40px;
+}.bootdivri2 p{
+    font-family: 'Roboto Slab';
+    font-weight: 500;
+}
+@media only screen and (max-width: 420px) {
+    .thirdsc {
+      display: none;
+    }
+  }
